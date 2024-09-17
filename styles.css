@@ -1,0 +1,127 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+.stopwatch {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    font-size: 1em;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #cb4a6d;
+    color: #fff;
+    transition: background 0.3s;
+}
+
+.controls button:hover {
+    background: #b93e5c;
+}
+
+.laps {
+    margin-top: 20px;
+}
+
+.laps ul {
+    list-style: none;
+    padding: 0;
+}
+
+.laps li {
+    font-size: 1.1em;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+/* Existing CSS styles... */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clock-image {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+    margin-bottom: 20px; /* Space between the image and stopwatch */
+}
+/* Existing CSS styles... */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+.stopwatch {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.clock-image {
+    width: 200px; 
+    margin-bottom: 3px; 
+}
+
+.controls button {
+    font-size: 1em;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #cb4a6d;
+    color: #fff;
+    transition: background 0.3s;
+}
+
+.controls button:hover {
+    background: #b93e5c;
+}
+
+.laps {
+    margin-top: 20px;
+}
+
+.laps ul {
+    list-style: none;
+    padding: 0;
+}
+
+.laps li {
+    font-size: 1.1em;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
