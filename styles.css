@@ -51,7 +51,7 @@ body {
     padding: 5px 0;
     border-bottom: 1px solid #ddd;
 }
-/* Existing CSS styles... */
+
 
 .container {
     display: flex;
@@ -60,11 +60,11 @@ body {
 }
 
 .clock-image {
-    width: 100px; /* Adjust the width as needed */
+    width: 100px;
     height: auto;
-    margin-bottom: 20px; /* Space between the image and stopwatch */
+    margin-bottom: 20px;
 }
-/* Existing CSS styles... */
+
 
 .container {
     display: flex;
